@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #2e2f42;
+    color: #434455;
     background-color: white;
 }
 
@@ -18,18 +18,18 @@ a {
 .header-navigation {
 }
 
-.header-logo {
+.header-logo, .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
-.header-logo-color, .footer-logo-color {
-    color: #4d5ae5;
+.header-logo-color {
+    color: #2e2f42;
 }
 
 .header-menu-list {
@@ -43,11 +43,8 @@ a {
     color: #2e2f42;
 }
 
-.header-menu-item:hover {
-    color: #404bbf;
-}
-
-.header-menu-item:active {
+.header-menu-item:hover,
+.header-menu-item:focus {
     color: #404bbf;
 }
 
@@ -64,6 +61,7 @@ a {
 }
 
 .header-address-link {
+    font-style: normal
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -83,7 +81,7 @@ a {
 .article-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.1;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -100,7 +98,8 @@ a {
     cursor: pointer;
 }
 
-.article-btn:hover {
+.article-btn:hover,
+.article-btn:focus {
     background: #404bbf;
 }
 
@@ -136,6 +135,7 @@ a {
 }
 
 .team-title {
+    text-transform: capitalize
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -145,6 +145,7 @@ a {
 }
 
 .team-list {
+    color: #FFFFFF;
 }
 
 .team-item {
@@ -174,6 +175,7 @@ a {
 }
 
 .portfolio-title {
+    text-transform: capitalize
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -210,13 +212,7 @@ a {
     background: #2e2f42;
 }
 
-.footer-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+.footer-logo-color {
     color: #f4f4fd;
 }
 
