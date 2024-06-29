@@ -61,7 +61,7 @@ a {
 }
 
 .header-address-link {
-    font-style: normal
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -135,7 +135,7 @@ a {
 }
 
 .team-title {
-    text-transform: capitalize
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -175,7 +175,7 @@ a {
 }
 
 .portfolio-title {
-    text-transform: capitalize
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
