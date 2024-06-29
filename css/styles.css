@@ -52,13 +52,13 @@ a {
 }
 
 .header-address {
+    font-style: normal;
 }
 
 .header-address-list {
 }
 
 .header-address-item {
-    font-style: normal;
 }
 
 .header-address-link {
