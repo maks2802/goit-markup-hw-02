@@ -36,6 +36,9 @@ a {
 }
 
 .header-menu-item {
+}
+
+.header-menu-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -43,12 +46,9 @@ a {
     color: #2e2f42;
 }
 
-.header-menu-item:hover,
-.header-menu-item:focus {
+.header-menu-link:hover,
+.header-menu-link:focus {
     color: #404bbf;
-}
-
-.header-menu-link {
 }
 
 .header-address {
@@ -145,7 +145,7 @@ a {
 }
 
 .team-list {
-    color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 
 .team-item {
